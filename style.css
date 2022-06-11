@@ -101,14 +101,14 @@ body {
     background-color: rgb(132, 247, 245);
     width: 750px;
     height: 200px;
-    border: 2px ridge white;
+    border: 4px ridge white;
 }
 
 .imgPlaceholder {
     background-color: rgb(132, 247, 245);
     width: 200px;
     height: 200px;
-    border: 2px ridge white;
+    border: 4px ridge white;
 }
 
 
@@ -133,9 +133,11 @@ body {
 
 .prevnewsDetail {
     height: 40px;
-    background-color: white;
+    background-color: rgb(132, 247, 245);
     margin-top: 30px;
     margin-bottom: 30px;
+    background-image: url("assets/clouds.gif");
+    border: 4px ridge white;
 }
 
 
@@ -164,12 +166,14 @@ body {
     background-color: rgb(132, 247, 245);
     width: 100px;
     height: 150px;
-    border: 2px ridge white;
+    border: 4px ridge white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    background-image: url("assets/clouds.gif");
+
 }
 
 .aboutName {
