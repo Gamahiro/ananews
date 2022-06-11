@@ -1,0 +1,88 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    background-color: darkgray;
+    padding: 10px 20px 10px 20px;
+}
+
+.logo {
+    font-size: 75px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.418);
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.links ul {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.links li {
+    list-style: none;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(132, 132, 132);
+    color: white;
+}
+
+.banner {
+background-color: rgb(91, 162, 137);
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.banner h1 {
+
+}
+
+.banner h2 {
+
+}
+
+.contentbox {
+
+}
+
+.contentheader {
+display: flex;
+justify-content: flex-start;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+}
+
+.newsContainer {
+    
+}
+
+.featured {
+    display: flex;
+}
+
+.prevNewsContainerMain {
+    
+}
