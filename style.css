@@ -6,11 +6,11 @@ body {
     flex: 1;
     justify-content: flex-start;
     width: 100vw;
+
     
 }
 
 .header {
-    display: flex;
     flex: 1;
     background-color: rgb(0, 255, 251);
     padding: 2vw 2vw 0vw 2vw;
@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    font-size: 10vw;
+    font-size: 8vw;
     font-weight: 900;
     color: white;
     text-shadow: 0.7vw 0.7vw rgba(0, 0, 0, 0.418);
@@ -31,7 +31,7 @@ body {
 .links {
     display: flex;
     flex: 1;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 0;
     width: 100vw;
 }
@@ -39,18 +39,26 @@ body {
 .links ul {
     text-decoration: none;
     display: flex;
-    align-items: flex-end;
 
 }
 
 .links li {
     list-style: none;
     margin-right: 2vw;
-    border: 0.3vw solid white;
-    border-radius: 0.2em;
+    border: 0.3em ridge white;
+    border-radius: 0.3em;
     padding: 0.1vw;
     background-color: #D1A2FF;
     color: white;
+    width: 5em;
+    height: 1.5em;
+    text-align: center;
+    font-size: 1em;
+}
+
+.links li:hover {
+    background-color: #dbbcfa;
+
 }
 
 .banner {
@@ -103,7 +111,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     flex: 2;
-    width: 60vw;
+    width: 60%;
 
 }
 
@@ -181,7 +189,7 @@ body {
     padding-bottom: 3vw;
     justify-content: center;
     flex: 1;
-    width: 35vw;
+    width: 40%;
 }
 
 .featured {
@@ -308,3 +316,10 @@ body {
     font-size: 2vw;
     
 }
+
+/* @media screen and (max-width: 500px) {
+    .newsContainer, .sidebar {
+      width: 100%;  //The width is 100%, when the viewport is 800px or smaller 
+    }
+  }
+*/  
