@@ -13,7 +13,7 @@ body {
     display: flex;
     flex: 1;
     background-color: rgb(0, 255, 251);
-    padding: 2vw 2vw 2vw 2vw;
+    padding: 2vw 2vw 0vw 2vw;
     width: 96vw;
     flex-wrap: wrap;
     
@@ -60,7 +60,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    font-size: 3vw;
+    font-size: 1.5vw;
 
 }
 
@@ -89,10 +89,10 @@ body {
 .mainContent {
     display: flex;
     justify-content: center;
-    padding: 5vw;
+    padding: 3vw;
     background-color: #D1A2FF;
     flex-grow: 1;
-    width: 95vw;
+    width: 93vw;
     flex-wrap: wrap;
 }
 
@@ -181,7 +181,7 @@ body {
     padding-bottom: 3vw;
     justify-content: center;
     flex: 1;
-    width: 30vw;
+    width: 35vw;
 }
 
 .featured {
