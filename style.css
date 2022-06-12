@@ -49,12 +49,12 @@ body {
     border: 0.3vw solid white;
     border-radius: 0.2em;
     padding: 0.1vw;
-    background-color: rgb(1, 146, 178);
+    background-color: #D1A2FF;
     color: white;
 }
 
 .banner {
-    background-color: rgb(1, 146, 178);
+    background-color: #D1A2FF;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 5vw;
-    background-color: rgb(1, 146, 178);
+    background-color: #D1A2FF;
     flex-grow: 1;
     width: 95vw;
     flex-wrap: wrap;
@@ -103,7 +103,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     flex: 2;
-    background-color: rgb(1, 146, 178);
     width: 60vw;
 
 }
