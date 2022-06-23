@@ -10,7 +10,7 @@ body {
     background-color: gray;
     border: 5px white ridge;
     color: white;
-    background-color: #a554f5ad;
+    background-color: #814fb3ad;
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
     width: 1100px;
     max-width: 100%;
     height: 170px;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
 
 }
 
@@ -60,7 +60,7 @@ body {
     -webkit-text-stroke-color: rgb(0, 0, 0);
     border: white 3px ridge;
     border-radius: 8px;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
     box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.664);
 }
 
@@ -77,7 +77,7 @@ body {
     text-align: center;
     border-top: white 3px ridge;
     border-bottom: white 3px ridge;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
 }
 
 
@@ -146,7 +146,7 @@ body {
     font-size: 20px;
     color: white;
     font-weight: 900;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
 
 }
 
@@ -166,7 +166,7 @@ p {
 .aboutText h1 {
     font-size: 24px;
     border-bottom: white 3px ridge;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
 }
 
 .about2 {
@@ -175,7 +175,7 @@ p {
     flex-direction: column;
     align-items: center;
     width: 150px;
-    background-color: rgb(69, 250, 250);
+    background-color: rgba(55, 223, 223, 0.5);
     color: white;
     border: white 3px ridge;
     box-shadow: 5px 0px 5px rgba(255, 255, 255, 0.336), -5px -5px 5px rgba(255, 255, 255, 0.336);
@@ -208,7 +208,7 @@ p {
 
 .nftCorner {
     display: flex;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
     padding: 15px;
     border-top: white 3px ridge;
 }
@@ -232,7 +232,7 @@ p {
 
 .nftCorner .imgPlaceholder div {
     margin: 5px;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
     border: white 3px ridge;
     display: flex;
     justify-content: center;
@@ -261,7 +261,7 @@ p {
 
     border-bottom: white 3px ridge;
     text-align: center;
-    background-color: rgb(69, 250, 250);
+    background-color: rgba(55, 223, 223, 0.678);
 }
 
 .nftCornerText p {
@@ -277,7 +277,7 @@ p {
     max-width: 100%;
     width: 667px;
     padding: 30px;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
 
 }
 
@@ -285,7 +285,7 @@ p {
     border: white 3px ridge;
     padding: 15px;
     color: white;
-    background-color: rgb(91, 255, 255);
+    background-color: rgba(55, 223, 223, 0.678);
 
 }
 
@@ -331,7 +331,7 @@ p {
     height: 50px;
     margin-top: 15px;
     border: 3px white ridge;
-    background-color: aqua;
+    background-color: rgba(55, 223, 223, 0.678);
 }
 
 .prevNews {
