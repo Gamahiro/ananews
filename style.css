@@ -68,6 +68,7 @@ body {
     background-color: rgb(92, 250, 247);
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.616), -2px -2px 5px rgba(255, 255, 255, 0.616);
     color: #D1A2FF;
+    cursor: pointer;
 
 }
 
