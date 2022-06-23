@@ -13,7 +13,44 @@ body {
     height: 100%;
 }
 
+.colorPicker {
+    background: none;
+    border: none;
+    margin: 0;
+}
 
+.colorPicker .oned {
+    margin-right: 0;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.config {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.config-title {
+    font-weight: 900;
+    font-size: 20px;
+}
+.selected-color, .saved-color {
+    height: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.saved-color:not(:last-of-type) {
+    margin-bottom: 5px;
+}
 
 #container {
     display: grid;
