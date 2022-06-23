@@ -91,15 +91,17 @@ body {
     max-width: 100%;
 
     display: flex;
+    flex-wrap: wrap;
 }
 
 
 
 
 .sidebar {
-    width: 370px;
+    min-width: 370px;
     border-left: white 3px ridge;
     background-color: #D1A2FF;
+    max-width: 100%;
 }
 
 
@@ -272,10 +274,11 @@ p {
 
 
 .newsContainer {
-    width: 680px;
     max-width: 100%;
+    width: 667px;
     padding: 30px;
     background-color: aqua;
+
 }
 
 .mainArticle {
@@ -310,14 +313,15 @@ p {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    width: 680px;
     margin-top: 15px;
+    flex-wrap: wrap;
 }
 
 .prevNewsContainer {
-    width: 150px;
+    max-width: 150px;
     border: white 3px ridge;
     background-color: #D1A2FF;
+    margin-bottom: 15px;
     
 }
 
