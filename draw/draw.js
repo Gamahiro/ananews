@@ -70,6 +70,10 @@ let mouseClicked = false;
 function listenGridbox() {
     for (let i = 0; i < gridboxes.length; i++) {
 
+        gridboxes[i].addEventListener('click', () => {
+            gridboxes[i].style.backgroundColor = selectedColorText.textContent;
+        })
+
         gridboxes[i].addEventListener("mouseenter", () => {
 
 
