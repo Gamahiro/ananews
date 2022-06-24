@@ -123,8 +123,9 @@ function createGridBox(xAmount, yAmount) {
             xAmount = prompt("Box size cannot be larger than 150");
             yAmount = xAmount;
             if (xAmount > 150) {
+                xAmount = 30;
+                yAmount = xAmount;
                 alert("Wrong input");
-                return;
             }
         } else if (!xAmount || xAmount < 1) {
             xAmount = 30;
