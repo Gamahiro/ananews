@@ -12,10 +12,11 @@
 
 .colorPicker {
     background: #E8E6E0;
-    border: 1px solid #BBB;
-    -moz-border-radius: .3em;
-    border-radius: .3em;
-    margin: 1em;
+    border: 2px solid rgb(0, 0, 0);
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 15px;
     display: inline-block;
 }
 

@@ -14,33 +14,40 @@
 
 <body>
 
-    <div id="containerBorder">
-        <div id="container">
+    <div id="containerBorder" draggable="false">
+        <div class="mainContainer">
+            <div class="container">
+                <div class="color-picker"></div>
+                <div class="config">
+                    <div class="config-title">Selected color:</div>
+                    <div class="selected-color-text"></div>
+                    <div class="selected-color"></div>
+                    <div class="config-title">Saved Colors:</div>
+                    <div class="saved-color"></div>
+                    <div class="saved-color"></div>
+                    <div class="saved-color"></div>
+                    <div class="saved-color"></div>
+                    <div class="saved-color"></div>
+                    <div class="saved-color"></div>
+                    <div class="eraser">Eraser</div>
+                    <div id="clearButton" draggable="false">Clear canvas</div>
+                </div>
 
-
-        </div>
-        <div id="buttonsBar">
-        <button id="clearButton">clear</button>
-        <button id="initiateGridboxes">Change canvas size</button>
-        <button id="eraseButton"> eraser</button>
-        <button id="changeButton">change color</button>
-    </div>
-    <div class="container">
-        <div class="color-picker"></div>
-            <div class="config">
-                <div class="config-title">Selected color</div>
-                <div class="selected-color-text"></div>
-                <div class="selected-color"></div>
-                <div class="config-title">Saved Colors</div>
-                <div class="saved-color"></div>
-                <div class="saved-color"></div>
-                <div class="saved-color"></div>
-                <div class="saved-color"></div>
-                <div class="saved-color"></div>
-                <div class="saved-color"></div>
             </div>
-        
-    </div>
+            <div id="container" draggable="false">
+
+
+            </div>
+        </div>
+        <div class="buttonsTitle">Canvas Size:</div>
+        <div id="buttonsBar" draggable="false">
+            <button class="sizeButton" id="canvasSize8">8x8</button>
+            <button class="sizeButton" id="canvasSize16">16x16</button>
+            <button class="sizeButton" id="canvasSize32">32x32</button>
+            <button class="sizeButton" id="canvasSize64">64x64</button>
+            <button class="sizeButton" id="canvasSize128">128x128</button>
+            <button id="initiateGridboxes" draggable="false">Custom canvas size</button>
+        </div>
     </div>
 </body>
 
