@@ -1,0 +1,4 @@
+.content {
+display: grid;
+grid-template: 20% 10% 60% 10% / 20% 80%;
+}
